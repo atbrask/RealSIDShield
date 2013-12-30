@@ -7,7 +7,7 @@ This is an Arduino shield that makes it easy to use a MOS Technology 6581/8580 S
 
 The design works without any big problems. There are a couple of minor issues, but I think it's good enough to release into the wild. The board basically provides the necessary support electronics for the SID chip to work and be accessible from the Arduino. So far, I have only tested it with a 8580, but it should work fine with a 6581 too. The biggest difference is the VDD voltage for the SID chip. The board includes a little step-up converter for this. Once a board is built, it can only be used with one of the two kinds of SID.
 
-The example code is a simple music player that plays .SID files. It consists of a Python script that emulates the Commodore 64 CPU (using the py65 package from PyPI) and an Arduino scetch that handles the SID chip.
+The example code is a simple music player that plays .SID files. It consists of a Python script that emulates the Commodore 64 CPU (using the py65 package from PyPI) and an Arduino sketch that handles the SID chip.
 
 If anyone is interested, I have a couple of extra PCBs left over. I might even have a complete set of components too (except for more SID chips).
 
