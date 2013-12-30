@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-10 BZR 3351)-testing date = Tirsdag '29en' 29. Maj 2012 21.15.37
+
+BeginCmp
+TimeStamp = /4F382D10;
+Reference = C1;
+ValeurCmp = 22nF_(470pF);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F382D18;
+Reference = C2;
+ValeurCmp = 22nF_(470pF);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F46A764;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4BF511;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F46A773;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D4133;
+Reference = C8;
+ValeurCmp = 100uF;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381881;
+Reference = C9;
+ValeurCmp = 1nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D40A8;
+Reference = C10;
+ValeurCmp = 560pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381DD6;
+Reference = C11;
+ValeurCmp = 470pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F382297;
+Reference = C12;
+ValeurCmp = 220pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D4377;
+Reference = C13;
+ValeurCmp = 100uF;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3822BD;
+Reference = C14;
+ValeurCmp = 10uF;
+IdModule  = c_elec_4x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D3F2A;
+Reference = C15;
+ValeurCmp = 100uF;
+IdModule  = c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D40FB;
+Reference = D1;
+ValeurCmp = SK_34;
+IdModule  = diode-SMA-unfucked;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D4CA9;
+Reference = J1;
+ValeurCmp = JACK_PLUG;
+IdModule  = MX-387GL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D42AD;
+Reference = L1;
+ValeurCmp = 1uH;
+IdModule  = SM1812;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D3E3D;
+Reference = L2;
+ValeurCmp = 330uH;
+IdModule  = Fastron_PISN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3818DB;
+Reference = Q1;
+ValeurCmp = BC847;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381872;
+Reference = R1;
+ValeurCmp = NC_(1K);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381878;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381DDE;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D4163;
+Reference = R4;
+ValeurCmp = 6k2_(13k);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3822CB;
+Reference = R5;
+ValeurCmp = 47K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D41AC;
+Reference = R6;
+ValeurCmp = 1k_(1k5);
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D3EB9;
+Reference = R7;
+ValeurCmp = 180_ohm;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D3F6D;
+Reference = R8;
+ValeurCmp = 1.0_ohm;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F381806;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD_040pins;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6B750F;
+Reference = U1;
+ValeurCmp = 74574;
+IdModule  = SO20L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F38135F;
+Reference = U2;
+ValeurCmp = 8580_(6581);
+IdModule  = DIP-28__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F4D33B2;
+Reference = U3;
+ValeurCmp = MC34063A;
+IdModule  = SO8E;
+EndCmp
+
+EndListe

@@ -1,0 +1,326 @@
+# EESchema Netlist Version 1.1 created  Tirsdag '29en' 29. Maj 2012 21.15.37
+(
+ ( /4F382D10 SM0805 C1 22nF_(470pF)
+  ( 1 N-000022 )
+  ( 2 N-000001 )
+ )
+ ( /4F382D18 SM0805 C2 22nF_(470pF)
+  ( 1 N-000021 )
+  ( 2 N-000020 )
+ )
+ ( /4F46A764 SM0805 C3 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F4BF511 SM0805 C4 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F46A773 SM0805 C5 100nF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F4D4133 c_elec_6.3x7.7 C8 100uF
+  ( 1 N-000047 )
+  ( 2 GND )
+ )
+ ( /4F381881 SM0805 C9 1nF
+  ( 1 N-000046 )
+  ( 2 GND )
+ )
+ ( /4F4D40A8 SM0805 C10 560pF
+  ( 1 N-000019 )
+  ( 2 GND )
+ )
+ ( /4F381DD6 SM0805 C11 470pF
+  ( 1 N-000046 )
+  ( 2 N-000039 )
+ )
+ ( /4F382297 SM0805 C12 220pF
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /4F4D4377 c_elec_6.3x7.7 C13 100uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /4F3822BD c_elec_4x5.3 C14 10uF
+  ( 1 N-000039 )
+  ( 2 N-000040 )
+ )
+ ( /4F4D3F2A c_elec_6.3x7.7 C15 100uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F4D40FB diode-SMA-unfucked D1 SK_34
+  ( 1 N-000049 )
+  ( 2 N-000047 )
+ )
+ ( /4F4D4CA9 MX-387GL J1 JACK_PLUG
+  ( 1 GND )
+  ( 2 N-000040 )
+  ( 3 N-000040 )
+ )
+ ( /4F4D42AD SM1812 L1 1uH
+  ( 1 N-000047 )
+  ( 2 VDD )
+ )
+ ( /4F4D3E3D Fastron_PISN L2 330uH
+  ( 1 N-000049 )
+  ( 2 N-000050 )
+ )
+ ( /4F3818DB SOT23EBC Q1 BC847
+  ( 1 N-000039 )
+  ( 2 N-000046 )
+  ( 3 VDD )
+ )
+ ( /4F381872 SM0805 R1 NC_(1K)
+  ( 1 N-000045 )
+  ( 2 GND )
+ )
+ ( /4F381878 SM0805 R2 10K
+  ( 1 N-000046 )
+  ( 2 N-000045 )
+ )
+ ( /4F381DDE SM0805 R3 1K
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /4F4D4163 SM0805 R4 6k2_(13k)
+  ( 1 N-000047 )
+  ( 2 N-000048 )
+ )
+ ( /4F3822CB SM0805 R5 47K
+  ( 1 N-000040 )
+  ( 2 GND )
+ )
+ ( /4F4D41AC SM0805 R6 1k_(1k5)
+  ( 1 N-000048 )
+  ( 2 GND )
+ )
+ ( /4F4D3EB9 SM0805 R7 180_ohm
+  ( 1 N-000018 )
+  ( 2 N-000050 )
+ )
+ ( /4F4D3F6D SM0805 R8 1.0_ohm
+  ( 1 VCC )
+  ( 2 N-000050 )
+ )
+ ( /4F381806 ARDUINO_SHIELD_040pins SHIELD1 ARDUINO_SHIELD
+  ( 0 ? )
+  ( 1 ? )
+  ( 2 D2 )
+  ( 3 D3 )
+  ( 3V3 ? )
+  ( 4 D4 )
+  ( 5 D5 )
+  ( 5V VCC )
+  ( 6 D6 )
+  ( 7 D7 )
+  ( 8 D0 )
+  ( 9 D1 )
+  ( 10 SID_CLOCK )
+  ( 11 SID_CS )
+  ( 12 LATCH_CLOCK )
+  ( 13 SID_RESET )
+  ( AD0 ? )
+  ( AD1 ? )
+  ( AD2 ? )
+  ( AD3 ? )
+  ( AD4 ? )
+  ( AD5 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 ? )
+  ( GND3 ? )
+  ( RST ? )
+  ( V_IN ? )
+ )
+ ( /4F6B750F SO20L U1 74574
+  ( 1 GND )
+  ( 2 D0 )
+  ( 3 D1 )
+  ( 4 D2 )
+  ( 5 D3 )
+  ( 6 D4 )
+  ( 7 D5 )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 LATCH_CLOCK )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 R/W )
+  ( 15 A4 )
+  ( 16 A3 )
+  ( 17 A2 )
+  ( 18 A1 )
+  ( 19 A0 )
+  ( 20 VCC )
+ )
+ ( /4F38135F DIP-28__600_ELL U2 8580_(6581)
+  ( 1 N-000022 )
+  ( 2 N-000001 )
+  ( 3 N-000021 )
+  ( 4 N-000020 )
+  ( 5 SID_RESET )
+  ( 6 SID_CLOCK )
+  ( 7 R/W )
+  ( 8 SID_CS )
+  ( 9 A0 )
+  ( 10 A1 )
+  ( 11 A2 )
+  ( 12 A3 )
+  ( 13 A4 )
+  ( 14 GND )
+  ( 15 D0 )
+  ( 16 D1 )
+  ( 17 D2 )
+  ( 18 D3 )
+  ( 19 D4 )
+  ( 20 D5 )
+  ( 21 D6 )
+  ( 22 D7 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 VCC )
+  ( 26 ? )
+  ( 27 N-000045 )
+  ( 28 VDD )
+ )
+ ( /4F4D33B2 SO8E U3 MC34063A
+  ( 1 N-000049 )
+  ( 2 GND )
+  ( 3 N-000019 )
+  ( 4 GND )
+  ( 5 N-000048 )
+  ( 6 VCC )
+  ( 7 N-000050 )
+  ( 8 N-000018 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C14
+ CP*
+ SM*
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
