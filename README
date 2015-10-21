@@ -9,7 +9,7 @@ The design works without any big problems. There are a couple of minor issues, b
 
 The example code is a simple music player that plays .SID files. It consists of a Python script that emulates the Commodore 64 CPU (using the py65 package from PyPI) and an Arduino sketch that handles the SID chip.
 
-If anyone is interested, I have a couple of extra PCBs left over. I might even have a complete set of components too (except for more SID chips).
+I did have a few left over PCBs for sale, but as of October 2015 I'm all out. If anyone is interested, they can pretty easily order new ones themselves from a PCB house using the gerber files in this repository. If any specific components are unavailable/EOL you can just swap them for similar ones. Only a few of the capacitors and resistors are more or less critical.
 
 ---------------
 IMPORTANT NOTES
