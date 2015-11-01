@@ -67,7 +67,7 @@ def runCPU(cpu, newpc, newa, newx, newy):
 
 def playsid(filename, subtune, playseconds, serialport, baudrate):
     ## Parse file header
-    data = [ord(byte) for byte in open(filename).read()]
+    data = [ord(byte) for byte in open(filename, 'rb').read()]
 
     filetype = ''.join([chr(ch) for ch in data[0:4]])
     version = data[5]
