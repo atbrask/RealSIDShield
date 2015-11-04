@@ -15,6 +15,8 @@ I did have a few left over PCBs for sale, but as of October 2015 I'm all out. If
 IMPORTANT NOTES
 ---------------
 
+The Arduino sketch code has only been tested on an Arduino Uno. The code uses direct port access for I/O and depends on the specific mapping from the B and D ports on an ATmega168/328 to the digital pins on the Arduino board. This makes the code incompatible with Arduino boards with different port/pin mappings. One such case is the Arduino Leonardo which is currently not (yet) supported.
+
 !!! BUILD AT YOUR OWN RISK !!!
 If you end up frying your SID chip (or any other equipment), it's not my problem. :-)
 
